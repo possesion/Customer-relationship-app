@@ -1,6 +1,6 @@
 # CRM application based on React
 
-This project was bootstrapped with [DEMO](https://github.com/facebook/create-react-app).
+Watch [DEMO](https://possesion.github.io/Customer-relationship-app/).
 
 ## Description
 This App allows you to fetch .json from server and shows client data. You could also
