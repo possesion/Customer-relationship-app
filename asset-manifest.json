@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Customer-relationship-app/static/css/main.fe109782.chunk.css",
+    "main.js": "/Customer-relationship-app/static/js/main.0a8595d8.chunk.js",
+    "main.js.map": "/Customer-relationship-app/static/js/main.0a8595d8.chunk.js.map",
+    "runtime-main.js": "/Customer-relationship-app/static/js/runtime-main.6e2f8cc9.js",
+    "runtime-main.js.map": "/Customer-relationship-app/static/js/runtime-main.6e2f8cc9.js.map",
+    "static/js/2.a43de6e5.chunk.js": "/Customer-relationship-app/static/js/2.a43de6e5.chunk.js",
+    "static/js/2.a43de6e5.chunk.js.map": "/Customer-relationship-app/static/js/2.a43de6e5.chunk.js.map",
+    "index.html": "/Customer-relationship-app/index.html",
+    "static/css/main.fe109782.chunk.css.map": "/Customer-relationship-app/static/css/main.fe109782.chunk.css.map",
+    "static/js/2.a43de6e5.chunk.js.LICENSE.txt": "/Customer-relationship-app/static/js/2.a43de6e5.chunk.js.LICENSE.txt",
+    "static/media/icon-s.8e8a7f0f.png": "/Customer-relationship-app/static/media/icon-s.8e8a7f0f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e2f8cc9.js",
+    "static/js/2.a43de6e5.chunk.js",
+    "static/css/main.fe109782.chunk.css",
+    "static/js/main.0a8595d8.chunk.js"
+  ]
+}
