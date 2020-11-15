@@ -41,24 +41,26 @@ const Main = ({ isLoaded, sortedField, handleChangeField, filtered, direction })
     </th>
   ))
   return <>
-    <table className="table table-striped">
-      <thead>
-        <tr>
-          {head}
-        </tr>
-      </thead>
-      <tbody>
-        {currentUsers.map(({ firstName, lastName, email, phone }) => {
-          const id = _.uniqueId();
-          return <tr key={id} onClick={selectUser(firstName)} className="text-align-center pointer">
-            <th scope="row">{firstName}</th>
-            <td>{lastName}</td>
-            <td>{email}</td>
-            <td>{phone}</td>
+    <div className="table-size">
+      <table className="table table-striped">
+        <thead>
+          <tr>
+            {head}
           </tr>
-        })}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {currentUsers.map(({ firstName, lastName, email, phone }) => {
+            const id = _.uniqueId();
+            return <tr key={id} onClick={selectUser(firstName)} className="text-align-center pointer">
+              <th scope="row">{firstName}</th>
+              <td className="w-25">{lastName}</td>
+              <td className="w-25">{email}</td>
+              <td className="w-25">{phone}</td>
+            </tr>
+          })}
+        </tbody>
+      </table>
+    </div>
     {isLoaded ? null
       : <div className="d-flex align-slugs-center">
         <strong>Loading in progress...</strong>

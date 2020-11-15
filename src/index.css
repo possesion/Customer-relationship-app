@@ -5,7 +5,7 @@
 
 body {
     transition: all .5s ease;
-    font-family: 'Quattrocento', serif;
+    font-family: 'Quattrocento', 'Ubuntu', sans-serif;
 }
 
 .selected-user {
@@ -51,6 +51,9 @@ body {
 
 .menu-title {
     font-weight: bold;
-    outline: none !important;
-    border: none;
+
+}
+
+.table-size {
+    height: 420px;
 }
